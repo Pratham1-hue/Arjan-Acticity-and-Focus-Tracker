@@ -1,0 +1,47 @@
+{
+  "categories": [
+    {
+      "name": "Arjan Dashboard",
+      "kind": "neutral",
+      "match": ["127.0.0.1:4000", "localhost:4000", "Arjan Dashboard"]
+    },
+    {
+      "name": "DSA Practice",
+      "kind": "productive",
+      "match": ["leetcode.com"]
+    },
+    {
+      "name": "Data Science / AI",
+      "kind": "productive",
+      "match": ["IIT Madras", "huggingface.co", "chroma", "ollama", "jupyter"]
+    },
+    {
+      "name": "Web Dev",
+      "kind": "productive",
+      "match": [
+        "OpenCode",
+        "VS Code",
+        "Visual Studio Code",
+        "code.exe",
+        "localhost:3000",
+        "fastapi",
+        "next.js"
+      ]
+    },
+    {
+      "name": "Productive Research",
+      "kind": "productive",
+      "match": ["gemini.google.com", "claude.ai", "Gemini"]
+    },
+    {
+      "name": "Music",
+      "kind": "neutral",
+      "match": ["open.spotify.com", "Spotify"]
+    },
+    {
+      "name": "Distractions",
+      "kind": "distraction",
+      "match": ["instagram.com", "youtube.com/shorts"]
+    }
+  ]
+}

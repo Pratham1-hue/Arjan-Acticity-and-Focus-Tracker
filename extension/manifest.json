@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "StudyTracker Bridge",
+  "version": "1.0.0",
+  "description": "Sends the active tab's URL and title to the local StudyTracker daemon via Native Messaging. No data leaves your machine.",
+  "permissions": [
+    "tabs",
+    "windows",
+    "nativeMessaging"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "minimum_chrome_version": "100"
+}

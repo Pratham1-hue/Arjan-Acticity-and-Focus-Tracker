@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------
+# Build output (recreated by build.ps1)
+# ---------------------------------------------------------------
+/dist/
+*.exe
+*.exe~
+*.dll
+*.test
+*.out
+coverage.*
+*.coverprofile
+
+# ---------------------------------------------------------------
+# Dashboard (Next.js) — see also dashboard/.gitignore
+# ---------------------------------------------------------------
+/dashboard/node_modules/
+/dashboard/.next/
+/dashboard/out/
+*.tsbuildinfo
+npm-debug.log*
+
+# ---------------------------------------------------------------
+# Personal data — never commit
+# (normally lives in %LOCALAPPDATA%\StudyTracker, outside the repo;
+#  these catch copies made with -db / STUDYTRACKER_DATA)
+# ---------------------------------------------------------------
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+config.json
+config.json.tmp
+*.log
+
+# Secrets
+.env
+.env.*
+*.pem
+
+# ---------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
